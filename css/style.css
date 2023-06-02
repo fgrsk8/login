@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    margin: 13%;
+    width: 256px;
+    height: 272px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#login_btn {
+    margin: 15px 20px 10px 42px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 20px;
+    background: #ad1deb;
+    color: #fff;
+    border: 0.1px solid black;
+
+}
+
+#register_btn {
+    margin: 15px 20px 10px 14px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 0.1px solid black;
+
+}
+#login_form{
+    position: relative;
+}
+input{
+    margin: 15px 22px;
+    outline: none;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid;
+    font-size: 15.5px;
+
+}
+Input[type=checkbox]{
+    margin: 8px 5px 8px 22px;
+}
+input[type=submit]{
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    margin: 20px 15px 15px 75px;
+    padding: 7px;
+    color: #fff;
+    background-color: #26c80f;
+    border: none;
+    border-radius: 10px;
+}
+#register_form{
+    position: absolute;
+    left: 400px;
+    top: 65px;
+}

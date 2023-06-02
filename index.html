@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login & registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="hero">
+        <!-- Toggle button -->
+        <div id="button_box">
+            <button id="login_btn" onclick="login()">Login</button>
+            <button id="register_btn" onclick="register()"></button>register</button>
+        </div>
+        <!-- Login Form -->
+        <form id="login_form">
+            <input type="text" placeholder="User id" required>
+            <input type="text" placeholder="Password" required><br>
+            <input type="checkbox">
+            <span>Remenber Password</span><br>
+            <input type="submit" value="login">
+        </form>
+        <!-- registration form-->
+        <Form id="register_form">
+            <input type="text" placeholder="User id" required><br>
+            <input type="text" placeholder="Password" required><br>
+            <input type="checkbox">
+            <span>Remember Password</span><br>
+            <input type="email" placeholder="Email id" required>
+            <input type="submit" value="Register">
+        </Form>
+    </div>
+    <!-- jabascript-->
+    <script src="dev.js"></script>
+</body>
+
+</html>
